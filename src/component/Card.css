@@ -1,0 +1,30 @@
+.card{
+    margin: 10px;
+    border: 0px solid black; 
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, .75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+.card >img{
+    object-fit: fill;
+    min-height: 300px !important;
+    min-height: 200px !important;
+    width: 100% !important;
+}
+.card:hover{
+    transform: scale(1.07);
+}
+.card-info > h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-info > h4{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
